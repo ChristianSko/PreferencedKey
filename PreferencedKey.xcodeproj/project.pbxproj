@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		7E79E5C728A114C70068246B /* PreferencedKeyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79E5C628A114C70068246B /* PreferencedKeyApp.swift */; };
-		7E79E5C928A114C70068246B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79E5C828A114C70068246B /* ContentView.swift */; };
+		7E79E5C928A114C70068246B /* PreferenceKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79E5C828A114C70068246B /* PreferenceKeyView.swift */; };
 		7E79E5CB28A114CA0068246B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E79E5CA28A114CA0068246B /* Assets.xcassets */; };
 		7E79E5CE28A114CA0068246B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E79E5CD28A114CA0068246B /* Preview Assets.xcassets */; };
+		7E79E5D528A122640068246B /* GeometryPreferenceKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79E5D428A122640068246B /* GeometryPreferenceKeyView.swift */; };
+		7E79E5D728A1256E0068246B /* ScrollViewOffsetPreferenceKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79E5D628A1256E0068246B /* ScrollViewOffsetPreferenceKeyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E79E5C328A114C70068246B /* PreferencedKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreferencedKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E79E5C628A114C70068246B /* PreferencedKeyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencedKeyApp.swift; sourceTree = "<group>"; };
-		7E79E5C828A114C70068246B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E79E5C828A114C70068246B /* PreferenceKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyView.swift; sourceTree = "<group>"; };
 		7E79E5CA28A114CA0068246B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E79E5CD28A114CA0068246B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E79E5D428A122640068246B /* GeometryPreferenceKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyView.swift; sourceTree = "<group>"; };
+		7E79E5D628A1256E0068246B /* ScrollViewOffsetPreferenceKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				7E79E5C628A114C70068246B /* PreferencedKeyApp.swift */,
-				7E79E5C828A114C70068246B /* ContentView.swift */,
+				7E79E5C828A114C70068246B /* PreferenceKeyView.swift */,
+				7E79E5D428A122640068246B /* GeometryPreferenceKeyView.swift */,
+				7E79E5D628A1256E0068246B /* ScrollViewOffsetPreferenceKeyView.swift */,
 				7E79E5CA28A114CA0068246B /* Assets.xcassets */,
 				7E79E5CC28A114CA0068246B /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E79E5C928A114C70068246B /* ContentView.swift in Sources */,
+				7E79E5C928A114C70068246B /* PreferenceKeyView.swift in Sources */,
 				7E79E5C728A114C70068246B /* PreferencedKeyApp.swift in Sources */,
+				7E79E5D728A1256E0068246B /* ScrollViewOffsetPreferenceKeyView.swift in Sources */,
+				7E79E5D528A122640068246B /* GeometryPreferenceKeyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

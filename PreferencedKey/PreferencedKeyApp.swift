@@ -11,7 +11,7 @@ import SwiftUI
 struct PreferencedKeyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PreferenceKeyView()
         }
     }
 }
